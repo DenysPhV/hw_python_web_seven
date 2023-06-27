@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw-python-web-seven"
+version = "0.1.0"
+description = ""
+authors = ["Denys Filichkin <denys.philichkin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_python_web_seven"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.16"
+aiosqlite = "^0.19.0"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+faker = "^18.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
